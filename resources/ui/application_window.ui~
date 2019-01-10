@@ -2,7 +2,7 @@
 <!-- Generated with glade 3.22.1 -->
 <interface>
   <requires lib="gtk+" version="3.20"/>
-  <template class="TodoApplicationWindow" parent="GtkApplicationWindow">
+  <object class="GtkApplicationWindow" id="TodoApplicationWindow">
     <property name="can_focus">False</property>
     <child>
       <placeholder/>
@@ -15,5 +15,5 @@
         <property name="receives_default">True</property>
       </object>
     </child>
-  </template>
+  </object>
 </interface>
